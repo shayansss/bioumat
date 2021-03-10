@@ -7,13 +7,12 @@ C
 C     If you use this code in your work, please cite the following article
 C     as the reference, where you can also find more information about this code:
 C
-C   '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
-C   ''  Sajjadinia, S. S., Haghpanahi, M., & Razi, M. (2019). Computational simulation of    ''
-C   ''  the multiphasic degeneration of the bone-cartilage unit during osteoarthritis via    ''
-C   ''  indentation and unconfined compression tests. Proceedings of the Institution of      ''
-C   ''  Mechanical Engineers, Part H: Journal of Engineering in Medicine.                    ''
-C   ''  https://doi.org/10.1177/0954411919854011                                             ''
-C   '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+C     Sajjadinia, S. S., Haghpanahi, M., & Razi, M. (2019). Computational simulation of    
+C     the multiphasic degeneration of the bone-cartilage unit during osteoarthritis via    
+C     indentation and unconfined compression tests. Proceedings of the Institution of      
+C     Mechanical Engineers, Part H: Journal of Engineering in Medicine.                    
+C     https://doi.org/10.1177/0954411919854011                                             
+C   
 C
       SUBROUTINE SDVINI(STATEV,COORDS,NSTATV,NCRDS,NOEL,NPT,
      1 LAYER,KSPT)
