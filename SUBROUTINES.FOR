@@ -2,10 +2,9 @@ C
 C     The following Fortran code was written by Seyed Shayan Sajjadinia. 
 C     This code is the Fortran 77 version of the UMAT, FLOW, and SDVINI subroutines
 C     of the cartilage model, I firstly proposed in my Master's thesis.
-C     The model with minor modification was used in several publications.
+C     The model with minor modification was used in several journal publications.
 C
-C     If you use this code in your work, please cite the following article
-C     as the reference, where you can also find more information about this code:
+C     If you use this code in your work, please cite the following article, where more information is available:
 C
 C     Sajjadinia, S. S., Haghpanahi, M., & Razi, M. (2019). Computational simulation of    
 C     the multiphasic degeneration of the bone-cartilage unit during osteoarthritis via    
