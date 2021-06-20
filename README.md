@@ -24,6 +24,6 @@ URL = {https://doi.org/10.1177/0954411919854011}
 ```
 
 ## Further information
-Note that for the DDSDDE array, I used two different equations, one for debugging of the code and the other is based on equations in the appendix of the above paper. The latter should work better if it is used together with the right linearization method, otherwise use the former.
+Note that for the DDSDDE array, I used two different equations, one for debugging of the code and the other is based on equations in the appendix of the [paper(https://doi.org/10.1177/0954411919854011)]. The latter should work better if it is used together with the right linearization method, otherwise use the former.
 
-Please, read the [[paper](https://doi.org/10.1177/0954411919854011)] to find more information about implementation of this code.
+Please, read the [paper(https://doi.org/10.1177/0954411919854011)] to find more information about implementation of this code.
