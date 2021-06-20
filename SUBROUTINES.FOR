@@ -1,16 +1,9 @@
 C
-C     The following Fortran code was written by Seyed Shayan Sajjadinia. 
-C     This code is the Fortran 77 version of the UMAT, FLOW, and SDVINI subroutines
-C     of the cartilage model, I firstly proposed in my Master's thesis.
-C     The model with minor modification was used in several journal publications.
+C     The following Fortran 77 code is developed by Seyed Shayan Sajjadinia and is shared under the MIT License.
 C
-C     If you use this code in your work, please cite the following article, where more information is available:
+C     If this research data is useful for your work, kindly please consider citing the relavant paper [https://doi.org/10.1177/0954411919854011].
 C
-C     Sajjadinia, S. S., Haghpanahi, M., & Razi, M. (2019). Computational simulation of    
-C     the multiphasic degeneration of the bone-cartilage unit during osteoarthritis via    
-C     indentation and unconfined compression tests. Proceedings of the Institution of      
-C     Mechanical Engineers, Part H: Journal of Engineering in Medicine.                    
-C     https://doi.org/10.1177/0954411919854011                                             
+C     Please read the paper for more information about the theory and implementation details.      
 C   
 C
       SUBROUTINE SDVINI(STATEV,COORDS,NSTATV,NCRDS,NOEL,NPT,
@@ -29,12 +22,12 @@ C - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 C     THIS SUBROUTINE CODE IS GENERATED TO CONTROL THE NON-HOMOGENEOUS AND VARIABLE MATERIAL PARAMETERS VIA STATEV
 C - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 C
-C     MOST OF THE MATERIAL PARAMETERS ARE DEPENDING ON THE CARTLAGE DEGRADATION THAT ARE CONTROLED BY STATEV(1):
-C     STATEV(1)=1 ==>> TOTALLY HEALTHY CARTILAGE
-C     STATEV(1)=2 ==>> DEGRADED CARTILAGE WITHOUT FIBRILAR GEOMETRILAL ABNORMALITIES
-C     STATEV(1)=3 ==>> DEGRADED CARTILAGE WITH FIBRILARATION IN DEEP ZONE
-C     STATEV(1)=4 ==>> DEGRADED CARTILAGE WITH LOW FIBRILAR DISTORTION
-C     STATEV(1)=5 ==>> DEGRADED CARTILAGE WITH HIGH FIBRILAR DISTORTION
+C     STATEV(1) CONTROLES THE TYPE OF MATERIAL MODELED:
+C     STATEV(1)=1 ==>> TOTALLY HEALTHY CARTILAGE # relavant publication for more details: [http://dx.doi.org/10.1177/0954411919854011]
+C     STATEV(1)=2 ==>> DEGRADED CARTILAGE WITHOUT FIBRILAR GEOMETRILAL ABNORMALITIES # relavant publication for more details: [http://dx.doi.org/10.1177/0954411919854011]
+C     STATEV(1)=3 ==>> DEGRADED CARTILAGE WITH FIBRILARATION IN DEEP ZONE # relavant publication for more details: [http://dx.doi.org/10.13140/RG.2.2.32634.44488/1]
+C     STATEV(1)=4 ==>> DEGRADED CARTILAGE WITH LOW FIBRILAR ROTATION # relavant publication for more details: [http://dx.doi.org/10.24200/SCI.2020.51785.2362]
+C     STATEV(1)=5 ==>> DEGRADED CARTILAGE WITH HIGH FIBRILAR ROTATION # relavant publication for more details: [http://dx.doi.org/10.24200/SCI.2020.51785.2362]
 C
       STATEV(1)=1
       DEPTH=-10D0 ! DEPTH OF THE CARTILAGE
