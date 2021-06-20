@@ -1,6 +1,6 @@
 # Fortran UMAT, FLOW, and SDVINI subroutines for a multiphasic and fibril-reinforced model of articular cartilage
 
-This code is the Fortran 77 version of the UMAT, FLOW, and SDVINI subroutines of the cartilage model, I firstly proposed in my Master's thesis. The model with some minor modifications was used in several publications.
+This code is the Fortran 77 version of the UMAT, FLOW, and SDVINI subroutines of the cartilage model, I firstly proposed in my Master's thesis, and I used it with some modifications in several publications.
 
 ## citation
 If you this research data is useful for your work, kindly please consider citing:
