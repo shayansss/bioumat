@@ -5,8 +5,7 @@ This code is the Fortran 77 version of the UMAT, FLOW, and SDVINI subroutines of
 ## Citation
 If this research data is useful for your work, kindly please consider citing:
 
-*Sajjadinia, Seyed Shayan, Mohammad Haghpanahi, and Mohammad Razi. "Computational simulation of the multiphasic degeneration of the bone-cartilage unit during osteoarthritis via indentation and unconfined compression tests." Proceedings of the Institution of Mechanical Engineers, Part H: Journal of Engineering in Medicine 233.9 (2019): 871-882.<br/>[DOI](http://doi.org/10.1177/0954411919854011){:target="_blank"} | [PDF](https://shayansss.github.io/files/2019_09_preprint.pdf){:target="_blank"}
-
+*Sajjadinia, Seyed Shayan, Mohammad Haghpanahi, and Mohammad Razi. "Computational simulation of the multiphasic degeneration of the bone-cartilage unit during osteoarthritis via indentation and unconfined compression tests." Proceedings of the Institution of Mechanical Engineers, Part H: Journal of Engineering in Medicine 233.9 (2019): 871-882.<br/>[DOI](http://doi.org/10.1177/0954411919854011) | [PDF](https://shayansss.github.io/files/2019_09_preprint.pdf)
 
 ```
 @article{doi:10.1177/0954411919854011,
@@ -24,6 +23,6 @@ URL = {https://doi.org/10.1177/0954411919854011}
 ```
 
 ## Further information
-Note that for the DDSDDE array, I used two different equations, one for debugging of the code and the other is based on equations in the appendix of the [paper](https://shayansss.github.io/files/2019_09_preprint.pdf){:target="_blank"}. The latter should work better if it is used together with the right linearization method, otherwise use the former.
+Note that for the DDSDDE array, I used two different equations, one for debugging of the code and the other is based on equations in the appendix of the [paper](https://shayansss.github.io/files/2019_09_preprint.pdf). The latter should work better if it is used together with the right linearization method, otherwise use the former.
 
-Please, read the [paper](https://shayansss.github.io/files/2019_09_preprint.pdf){:target="_blank"} to find more information about implementation of this code.
+Please, read the [paper](https://shayansss.github.io/files/2019_09_preprint.pdf) to find more information about implementation of this code.
