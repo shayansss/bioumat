@@ -3,7 +3,7 @@
 This code is the Fortran 77 version of the UMAT, FLOW, and SDVINI subroutines of the cartilage model, I firstly proposed in my Master's thesis, and I used it with some modifications in several publications.
 
 ## Citation
-If this research data is useful for your work, kindly please consider citing: [DOI](http://doi.org/10.1177/0954411919854011) | [PDF](https://shayansss.github.io/files/2019_09_preprint.pdf)**
+If this research data is useful for your work, kindly please consider citing our work ([DOI](http://doi.org/10.1177/0954411919854011) | [PDF](https://shayansss.github.io/files/2019_09_preprint.pdf)):
 
 ```
 @article{doi:10.1177/0954411919854011,
