@@ -1,4 +1,4 @@
-# Fortran UMAT, FLOW, and SDVINI subroutines for a multiphysics and fibril-reinforced model of articular cartilage
+# BioUMAT: Abaqus Fortran subroutine for cartilage multiphasic modeling
 
 This code is the Fortran 77 version of the subroutines of the cartilage model I firstly proposed in my MSc thesis, and I used it with some modifications in several publications. For more information, read our relevant [paper](https://shayansss.github.io/files/2019_09_preprint.pdf).
 
