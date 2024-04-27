@@ -2,6 +2,8 @@
 
 This code is the Fortran 77 version of the subroutines of the cartilage model I firstly proposed in my MSc thesis, and I used it with some modifications in several publications. For more information, read our relevant [paper](https://shayansss.github.io/files/2019_09_preprint.pdf).
 
+**NOTE:** A new extensive update on these subroutines with the other Abaqus files is available in my other repository at this [link](https://github.com/shayansss/psa).
+
 ## Citation
 If this research data is useful for your work, kindly please consider citing our work ([DOI](http://doi.org/10.1177/0954411919854011) | [PDF](https://shayansss.github.io/files/2019_09_preprint.pdf)):
 
