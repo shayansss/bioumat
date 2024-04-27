@@ -8,7 +8,7 @@ This code is the Fortran 77 version of the subroutines of the cartilage model I 
 If this research data is useful for your work, kindly please consider citing our work ([DOI](http://doi.org/10.1177/0954411919854011) | [PDF](https://shayansss.github.io/files/2019_09_preprint.pdf)):
 
 ```
-@article{doi:10.1177/0954411919854011,
+@article{sajjadinia2019,
 author = {Seyed Shayan Sajjadinia and Mohammad Haghpanahi and Mohammad Razi},
 title ={Computational simulation of the multiphasic degeneration of the bone-cartilage unit during osteoarthritis via indentation and unconfined compression tests},
 journal = {Proceedings of the Institution of Mechanical Engineers, Part H: Journal of Engineering in Medicine},
